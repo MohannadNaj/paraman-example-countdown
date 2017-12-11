@@ -78,6 +78,18 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      config = {
+          countdown: {
+              year: 2018,
+              month: 6,
+              day: 24,
+              hour: 0,
+              minute: 0,
+              second: 0
+          }
+      }
+    </script>
     <!-- JAVASCRIPT FILES -->
     <script src="{{mix('js/countdown.js')}}"></script>
   </body>

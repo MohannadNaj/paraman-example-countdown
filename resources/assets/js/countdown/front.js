@@ -1,14 +1,3 @@
-config = {
-    countdown: {
-        year: 2018,
-        month: 6,
-        day: 24,
-        hour: 24,
-        minute: 59,
-        second: 59
-    }
-}
-
 $(function () {
 
     countdown();

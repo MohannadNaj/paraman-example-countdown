@@ -12933,17 +12933,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /* 6 */
 /***/ (function(module, exports) {
 
-config = {
-    countdown: {
-        year: 2018,
-        month: 6,
-        day: 24,
-        hour: 24,
-        minute: 59,
-        second: 59
-    }
-};
-
 $(function () {
 
     countdown();
