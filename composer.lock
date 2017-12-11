@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5eba86da256ddeb8084c32d3d10e18d3",
+    "content-hash": "2610a5f2ad5ee11852d10fc024b1de14",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -684,6 +684,68 @@
                 "storage"
             ],
             "time": "2017-08-06T17:41:04+00:00"
+        },
+        {
+            "name": "mohannadnaj/paraman",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MohannadNaj/paraman.git",
+                "reference": "ef7701c2e4104524dfb5c76717ea1f89b6fb2808"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MohannadNaj/paraman/zipball/ef7701c2e4104524dfb5c76717ea1f89b6fb2808",
+                "reference": "ef7701c2e4104524dfb5c76717ea1f89b6fb2808",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.5",
+                "illuminate/http": "~5.5",
+                "illuminate/support": "~5.5",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "~0.9",
+                "orchestra/database": "~3.5",
+                "orchestra/testbench": "~3.5",
+                "orchestra/testbench-browser-kit": "~3.5",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Paraman\\Providers\\ParametersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Paraman\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohannad Najjar",
+                    "email": "mohannad.najjar@mail.com"
+                }
+            ],
+            "description": "Laravel package for managing app Parameters/Settings.",
+            "homepage": "https://github.com/MohannadNaj/paraman",
+            "keywords": [
+                "framework",
+                "laravel"
+            ],
+            "time": "2017-12-10T00:39:29+00:00"
         },
         {
             "name": "monolog/monolog",
