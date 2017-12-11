@@ -39,7 +39,6 @@
   height: auto;
   z-index: 1;
   overflow: hidden;
-  background-image: url('../img/video-bg.jpg');
   background-position: center center;
   background-size: cover;
 }
