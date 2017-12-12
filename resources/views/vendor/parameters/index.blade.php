@@ -47,6 +47,9 @@
     </div>
 <script src="{{asset('vendor/parameters/js/core.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
 <script src="{{asset('js/date.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
+<script type="text/javascript">
+    window.Paraman.editParametersOnly = true
+</script>
 <script src="{{asset('vendor/parameters/js/app.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
 </body>
 </html>
