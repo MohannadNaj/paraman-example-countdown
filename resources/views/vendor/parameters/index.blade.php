@@ -12,6 +12,7 @@
     <!-- Styles -->
     <link href="{{asset('vendor/parameters/css/core.css')}}" rel="stylesheet">
     <link href="{{asset('vendor/parameters/css/app.css')}}" rel="stylesheet">
+    <link href="{{asset('css/date.css')}}" rel="stylesheet">
     <!-- Scripts -->
     <script>
         window.Paraman = <?php echo json_encode(Paraman\ParametersManager::clientData()); ?>;
@@ -24,6 +25,7 @@
         <paraman :parameters-list='{!! $parameters->toJson(JSON_HEX_APOS) !!}'></paraman>
     </div>
 <script src="{{asset('vendor/parameters/js/core.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
+<script src="{{asset('js/date.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
 <script src="{{asset('vendor/parameters/js/app.js') . '?v='.Illuminate\Support\Str::random()}}"></script>
 </body>
 </html>

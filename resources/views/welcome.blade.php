@@ -78,12 +78,16 @@
         </div>
       </div>
     </div>
+    <script src="{{mix('js/date.js')}}"></script>
     <script type="text/javascript">
+      let countDownDate = "{{param('countdown_date', 'date', '01-01-2018')}}";
+      let dateFormat = 'DD-MM-Y';
+
       config = {
           countdown: {
-              year: 2018,
-              month: 6,
-              day: 24,
+              year: moment(countDownDate, dateFormat).format('Y'),
+              month: moment(countDownDate, dateFormat).format('MM'),
+              day: moment(countDownDate, dateFormat).format('DD'),
               hour: 0,
               minute: 0,
               second: 0

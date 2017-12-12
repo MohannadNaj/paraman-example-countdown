@@ -15,3 +15,8 @@ mix.js('resources/assets/js/countdown.js', 'public/js')
    .sass('resources/assets/sass/countdown.scss', 'public/css');
 
 mix.copy('resources/assets/images/countdown','public/images')
+
+mix.js('resources/assets/js/date.js', 'public/js')
+    .sass('resources/assets/sass/date.scss','public/css')
+
+
