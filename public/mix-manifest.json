@@ -1,4 +1,6 @@
 {
+    "/js/date.js": "/js/date.js",
     "/js/countdown.js": "/js/countdown.js",
-    "/css/countdown.css": "/css/countdown.css"
+    "/css/countdown.css": "/css/countdown.css",
+    "/css/date.css": "/css/date.css"
 }
