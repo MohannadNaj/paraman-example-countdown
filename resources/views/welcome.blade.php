@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Countdown landing page Bootstrap template</title>
+    <title>{{param('countdown_title', 'textfield','Countdown landing page Bootstrap template')}}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -25,8 +25,8 @@
         <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a></p>
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="cursive">Countdown template</h1>
-            <h2 class="sub">We are still tweaking few details, stay tuned!</h2>
+            <h1 class="cursive">{{param('countdown_header_heading','textfield', 'Countdown template')}}</h1>
+            <h2 class="sub">{{param('countdown_header_details','text', 'We are still tweaking few details, stay tuned!')}}</h2>
           </div>
         </div>
         <!-- countdown-->
@@ -68,7 +68,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy;2015 Your name/company goes here</p>
+              <p>&copy;{{param('countdown_copyright_message','textfield','2015 Your name/company goes here')}}</p>
             </div>
             <div class="col-md-6">
               <p class="credit">Theme by <a href="https://bootstrapious.com/tutorials">Bootstrapious</a></p>
