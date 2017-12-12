@@ -13,6 +13,27 @@
     <link href="{{asset('vendor/parameters/css/core.css')}}" rel="stylesheet">
     <link href="{{asset('vendor/parameters/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('css/date.css')}}" rel="stylesheet">
+    <style type="text/css">
+        .parameters-sidebar__container, .parameters-list > .row > .col-md-12 > .card {
+            background-image: url({{asset('images/beach.jpg')}});
+            background-position: center;
+        }
+        .parameters-list > .row > .col-md-12 > .card {
+            background-blend-mode: luminosity;
+        }
+        .parameters-sidebar__container:before {
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.65);
+            right: 0;
+            bottom: 0;
+        }
+        .parameters-list__list-item {
+            background: rgba(215, 237, 249, 0.78);
+        }
+    </style>
     <!-- Scripts -->
     <script>
         window.Paraman = <?php echo json_encode(Paraman\ParametersManager::clientData()); ?>;
